@@ -1,0 +1,138 @@
+.container {
+    font-weight: 700;
+}
+.img {
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.imgPosition {
+    text-align: center;
+    width: 60%;
+}
+.cart-item {
+    background: #ffead6;
+    width: 100%;
+    text-align: center;
+}
+.cartName {
+    width: 10%;
+}
+.cartTopping {
+    width: 10%;
+}
+
+.main-title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.cart-title {
+    background: #ffab4c;
+    color: #FFF;    
+
+}
+
+.total-price {
+    width: 100%;
+    text-align: right;
+    font-size:18px;
+    padding-bottom:15px;
+    margin-top: 1%;
+    font-weight: 800;
+}
+.border {
+    border-bottom: double 5px #FFC778;
+    width: 30%;
+    margin-top: -2%;
+    margin-left: auto;
+    margin-right: 10%;
+}
+.tax{
+    width: 100%;
+    text-align: right;
+    margin-top: 2%;
+
+}
+
+.box2 {
+    margin: 2em 0;
+    background: #ffead6;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box2 .box2-title {
+    font-size: 1.2em;
+    background: #ffab4c;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.must::after {
+    content: "必須";
+    background-color: #f0564e;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 10px;
+    padding: 3px 7px;
+    margin: 0px 5px;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+}
+.box2 .container {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.input {
+    border: none; 
+    margin-bottom: 2%;
+}
+
+.input:hover {
+    border: 1px solid #0094ff;
+}
+
+.time {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.time-item {
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+
+
+  /* width: 100%;で残りスペースを埋める */
+.spacer {
+    width: 100%;
+}
+
+.error {
+    color: red;
+    margin-left: 10%;
+}
+
+.order-button {
+    border: none; 
+    text-align: right;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
